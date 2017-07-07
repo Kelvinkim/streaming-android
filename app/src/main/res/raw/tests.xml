@@ -1,13 +1,13 @@
 <Testbed>
     <Properties>
-        <bitrate>750</bitrate>
-        <host>0.0.0.0</host>
-        <license_key></license_key>
+        <bitrate>500</bitrate>
+        <host>192.168.1.45</host>
+        <license_key>UCUD-2RMI-OB63-MSRF</license_key>
         <buffer_time>0.2</buffer_time>
         <port>8554</port>
         <stream1>stream1</stream1>
         <stream2>stream2</stream2>
-        <context>live</context>
+        <context>connection-messaging-demo</context>
         <camera_width>640</camera_width>
         <camera_height>360</camera_height>
         <debug_view>true</debug_view>
@@ -37,6 +37,21 @@
             <name>Publish</name>
             <class>PublishTest</class>
         </Test>
+
+
+        <Test title="PublishServerMessaging">
+
+            <description>Server - Client Messaging Example</description>
+
+            <Properties>
+            </Properties>
+
+            <name>PublishServerMessaging</name>
+            <class>PublishServerMessagingTest</class>
+        </Test>
+
+
+
 
         <Test title="Publish - 1080p">
 
