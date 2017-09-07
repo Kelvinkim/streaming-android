@@ -13,7 +13,7 @@ publish.send("onCuePoint", map);
 ```
 
 
-### Reading the embedded cuepoint data in flash usign a FLVPlayer component
+### Reading the embedded cuepoint data from FLV in flash using a FLVPlayer component over HTTP
 
 ```Actionscript
 import fl.video.*;
