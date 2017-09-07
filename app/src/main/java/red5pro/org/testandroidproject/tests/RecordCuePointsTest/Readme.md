@@ -28,3 +28,6 @@ function cp_listener(eventObject:MetadataEvent):void {
         trace("Cue point type is: " + eventObject.info.type);
 }
 ```
+
+
+![CuePoints In FLVPlayer](assets/cuepint_playback.png)
