@@ -30,4 +30,6 @@ function cp_listener(eventObject:MetadataEvent):void {
 ```
 
 
+__ScreenShot : CuePoints In FLVPlayer__
+
 ![CuePoints In FLVPlayer](assets/cuepint_playback.png)
