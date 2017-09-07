@@ -144,6 +144,18 @@
             <class>RecordedTest</class>
         </Test>
 
+
+        <Test title="Publish - Record CuePoints">
+
+            <description>A publish example that records cuepoints along with stream data.</description>
+
+            <Properties>
+            </Properties>
+
+            <name>Record - CuePoints</name>
+            <class>RecordCuePointsTest</class>
+        </Test>
+
         <Test title="Publish - Remote Call">
 
             <description>The publish portion of the remote call example - sends the remote call</description>
